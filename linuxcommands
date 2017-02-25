@@ -735,3 +735,17 @@ Name:	github.com
 Address: 192.30.253.113
 Name:	github.com
 Address: 192.30.253.112
+
+traceroute google.com
+traceroute to google.com (216.58.194.78), 64 hops max, 52 byte packets
+ 1  192.168.0.1 (192.168.0.1)  2.142 ms  92.248 ms  1.819 ms
+ 2  96.120.15.137 (96.120.15.137)  12.798 ms  11.457 ms  11.405 ms
+ 3  te4-4-ur01.millingtonrd.tn.malt.comcast.net (68.85.55.1)  30.087 ms  15.339 ms  9.576 ms
+ 4  te-0-15-0-10-ar02.dannythomas.tn.malt.comcast.net (162.151.12.245)  15.607 ms  12.165 ms  11.152 ms
+ 5  be-22258-cr02.dallas.tx.ibone.comcast.net (68.86.93.93)  24.902 ms  33.884 ms  30.269 ms
+ 6  be-12441-pe01.1950stemmons.tx.ibone.comcast.net (68.86.89.206)  21.745 ms  83.721 ms  196.172 ms
+ 7  66.208.228.94 (66.208.228.94)  177.282 ms  191.504 ms  52.567 ms
+ 8  108.170.240.193 (108.170.240.193)  24.651 ms  23.792 ms  25.522 ms
+ 9  209.85.242.183 (209.85.242.183)  30.238 ms  48.819 ms
+    209.85.242.181 (209.85.242.181)  27.767 ms
+10  dfw25s13-in-f78.1e100.net (216.58.194.78)  31.329 ms  24.523 ms  22.273 ms

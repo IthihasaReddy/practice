@@ -9,3 +9,6 @@ ls
 Desktop		Library		Pictures	eclipse
 Documents	Movies		Public		rep
 Downloads	Music		VirtualBox VMs	vagrant_work
+cp
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory

@@ -36,3 +36,198 @@ cat [options] [filenames] [-] [filenames]
 The square brackets indicate that the enclosed items are optional.
 tail -2  cat.txt
 The square brackets indicate that the enclosed items are optional.
+less --help
+Last login: Sat Feb 25 14:20:23 on ttys000
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ rmdir
+usage: rmdir [-p] directory ...
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cd
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cd -help
+-bash: cd: -h: invalid option
+cd: usage: cd [-L|-P] [dir]
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cd -h
+-bash: cd: -h: invalid option
+cd: usage: cd [-L|-P] [dir]
+\Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cd --help
+-bash: cd: --: invalid option
+cd: usage: cd [-L|-P] [dir]
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cd -help
+-bash: cd: -h: invalid option
+cd: usage: cd [-L|-P] [dir]
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cd -h
+-bash: cd: -h: invalid option
+cd: usage: cd [-L|-P] [dir]
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ ls
+Desktop		Library		Pictures	eclipse
+Documents	Movies		Public		rep
+Downloads	Music		VirtualBox VMs	vagrant_work
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cp
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ mv
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ touch
+usage:
+touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ rm
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ tar
+tar: Must specify one of -c, -r, -t, -u, -x
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ pwd
+/Users/ithihasareddynirmala
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ chmod
+usage:	chmod [-fhv] [-R [-H | -L | -P]] [-a | +a | =a  [i][# [ n]]] mode|entry file ...
+	chmod [-fhv] [-R [-H | -L | -P]] [-E | -C | -N | -i | -I] file ...
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cat
+
+
+^Z
+[1]+  Stopped                 cat
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cat -h
+cat: illegal option -- h
+usage: cat [-benstuv] [file ...]
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ ls
+Desktop		Library		Pictures	eclipse
+Documents	Movies		Public		rep
+Downloads	Music		VirtualBox VMs	vagrant_work
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cat rep
+cat: rep: Is a directory
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cat rep/practice
+cat: rep/practice: Is a directory
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cat rep/practice/linuxcommands 
+#linux commands
+mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+rmdir
+usage: rmdir [-p] directory ...
+cd
+cd [-L|-P] [dir]
+ls
+Desktop		Library		Pictures	eclipse
+Documents	Movies		Public		rep
+Downloads	Music		VirtualBox VMs	vagrant_work
+cp
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file ... target_directory
+mv
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+touch
+usage: touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...
+rm
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+tar
+tar: Must specify one of -c, -r, -t, -u, -x
+pwd
+/Users/ithihasareddynirmala
+chmod
+usage:	chmod [-fhv] [-R [-H | -L | -P]] [-a | +a | =a  [i][# [ n]]] mode|entry file ...
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ ls
+Desktop		Library		Pictures	eclipse
+Documents	Movies		Public		rep
+Downloads	Music		VirtualBox VMs	vagrant_work
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cd Desktop
+Ithihasas-MacBook-Pro:Desktop ithihasareddynirmala$ ls
+DL.jpg			Forking_GitHub .docx	Forking_GitHub .zip
+Fork&Stash_GitHub.mov	Forking_GitHub .mov	untitled folder
+Ithihasas-MacBook-Pro:Desktop ithihasareddynirmala$ cd ..
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cat cat
+cat: cat: No such file or directory
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ cat cat.txt
+
+cat's general syntax is
+
+cat [options] [filenames] [-] [filenames]
+
+The square brackets indicate that the enclosed items are optional.
+
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ tail
+^Z
+[2]+  Stopped                 tail
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ tail cat.txt
+
+cat's general syntax is
+
+cat [options] [filenames] [-] [filenames]
+
+The square brackets indicate that the enclosed items are optional.
+
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ tail -n --lines=1 cat.txt
+tail: illegal offset -- --lines=1
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ tail -n -lines=1 cat.txt
+tail: illegal offset -- -lines=1
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ tail -n+lines=1 cat.txt
+tail: illegal offset -- +lines=1
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ tail -2  cat.txt
+The square brackets indicate that the enclosed items are optional.
+
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ less
+Missing filename ("less --help" for help)
+Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ less --help
+
+                   SUMMARY OF LESS COMMANDS
+
+      Commands marked with * may be preceded by a number, N.
+      Notes in parentheses indicate the behavior if N is given.
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
+
+  h  H                 Display this help.
+  q  :q  Q  :Q  ZZ     Exit.
+ ---------------------------------------------------------------------------
+
+                           MOVING
+
+  e  ^E  j  ^N  CR  *  Forward  one line   (or N lines).
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or N lines).
+  f  ^F  ^V  SPACE  *  Forward  one window (or N lines).
+  b  ^B  ESC-v      *  Backward one window (or N lines).
+  z                 *  Forward  one window (and set window to N).
+  w                 *  Backward one window (and set window to N).
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.
+  d  ^D             *  Forward  one half-window (and set half-window to N).
+  u  ^U             *  Backward one half-window (and set half-window to N).
+  ESC-)  RightArrow *  Left  one half screen width (or N positions).
+  ESC-(  LeftArrow  *  Right one half screen width (or N positions).
+  F                    Forward forever; like "tail -f".
+  r  ^R  ^L            Repaint screen.
+  R                    Repaint screen, discarding buffered input.
+        ---------------------------------------------------
+        Default "window" is the screen height.
+        Default "half-window" is half of the screen height.
+ ---------------------------------------------------------------------------
+
+                          SEARCHING
+
+  /pattern          *  Search forward for (N-th) matching line.
+  ?pattern          *  Search backward for (N-th) matching line.
+  n                 *  Repeat previous search (for N-th occurrence).
+  N                 *  Repeat previous search in reverse direction.
+  ESC-n             *  Repeat previous search, spanning files.
+  ESC-N             *  Repeat previous search, reverse dir. & spanning files.
+  ESC-u                Undo (toggle) search highlighting.
+  &pattern          *  Display only matching lines
+        ---------------------------------------------------
+        A search pattern may be preceded by one or more of:
+        ^N or !  Search for NON-matching lines.
+        ^E or *  Search multiple files (pass thru END OF FILE).
+        ^F or @  Start search at FIRST file (for /) or last file (for ?).
+        ^K       Highlight matches, but don't move (KEEP position).
+        ^R       Don't use REGULAR EXPRESSIONS.
+ ---------------------------------------------------------------------------
+
+                           JUMPING
+
+  g  <  ESC-<       *  Go to first line in file (or line N).
+  G  >  ESC->       *  Go to last line in file (or line N).
+  p  %              *  Go to beginning of file (or N percent into file).
+  t                 *  Go to the (N-th) next tag.
+  T                 *  Go to the (N-th) previous tag.
+  {  (  [           *  Find close bracket } ) ].
+  }  )  ]           *  Find open bracket { ( [.
+  ESC-^F <c1> <c2>  *  Find close bracket <c2>.
+  ESC-^B <c1> <c2>  *  Find open bracket <c1> 
+HELP -- Press RETURN for more, or q when done

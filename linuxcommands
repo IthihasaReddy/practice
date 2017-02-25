@@ -15,3 +15,5 @@ usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvX] source_file target_file
 mv
 usage: mv [-f | -i | -n] [-v] source target
        mv [-f | -i | -n] [-v] source ... directory
+touch
+usage: touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...

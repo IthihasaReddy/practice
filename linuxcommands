@@ -5,3 +5,7 @@ rmdir
 usage: rmdir [-p] directory ...
 cd
 cd [-L|-P] [dir]
+ls
+Desktop		Library		Pictures	eclipse
+Documents	Movies		Public		rep
+Downloads	Music		VirtualBox VMs	vagrant_work

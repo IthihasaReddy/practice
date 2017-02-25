@@ -20,3 +20,5 @@ usage: touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] fi
 rm
 usage: rm [-f | -i] [-dPRrvW] file ...
        unlink file
+tar
+tar: Must specify one of -c, -r, -t, -u, -x

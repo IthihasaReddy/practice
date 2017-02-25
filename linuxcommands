@@ -668,3 +668,60 @@ kctl       0      0      3     10 com.apple.network.statistics
 kctl       0      0      4     10 com.apple.network.statistics
 kctl       0      0      5     10 com.apple.network.statistics
 kctl       0      0      1     12 com.apple.network.advisory
+
+ifconfig
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+	options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+	inet 127.0.0.1 netmask 0xff000000 
+	inet6 ::1 prefixlen 128 
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+	nd6 options=201<PERFORMNUD,DAD>
+gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+stf0: flags=0<> mtu 1280
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	ether f4:0f:24:11:0f:ee 
+	inet6 fe80::476:3175:ce9e:c879%en0 prefixlen 64 secured scopeid 0x4 
+	inet 192.168.0.30 netmask 0xffffff00 broadcast 192.168.0.255
+	inet6 2601:3c5:c201:d590:c5b:ed0a:b635:5c38 prefixlen 64 autoconf secured 
+	inet6 2601:3c5:c201:d590:dd45:b68e:ca18:8555 prefixlen 64 autoconf temporary 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+en1: flags=963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX> mtu 1500
+	options=60<TSO4,TSO6>
+	ether 06:00:29:29:c9:00 
+	media: autoselect <full-duplex>
+	status: inactive
+en2: flags=963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX> mtu 1500
+	options=60<TSO4,TSO6>
+	ether 06:00:29:29:c9:01 
+	media: autoselect <full-duplex>
+	status: inactive
+bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+	ether 06:00:29:29:c9:00 
+	Configuration:
+		id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+		maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+		root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+		ipfilter disabled flags 0x2
+	member: en1 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 5 priority 0 path cost 0
+	member: en2 flags=3<LEARNING,DISCOVER>
+	        ifmaxaddr 0 port 6 priority 0 path cost 0
+	nd6 options=201<PERFORMNUD,DAD>
+	media: <unknown type>
+	status: inactive
+p2p0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 2304
+	ether 06:0f:24:11:0f:ee 
+	media: autoselect
+	status: inactive
+awdl0: flags=8943<UP,BROADCAST,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1484
+	ether ca:31:a4:6a:3a:83 
+	inet6 fe80::c831:a4ff:fe6a:3a83%awdl0 prefixlen 64 scopeid 0x9 
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect
+	status: active
+utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+	inet6 fe80::6c44:aa4e:bbdc:efd0%utun0 prefixlen 64 scopeid 0xa 
+	nd6 options=201<PERFORMNUD,DAD>

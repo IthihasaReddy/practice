@@ -34,3 +34,5 @@ cat's general syntax is
 cat [options] [filenames] [-] [filenames]
 
 The square brackets indicate that the enclosed items are optional.
+tail -2  cat.txt
+The square brackets indicate that the enclosed items are optional.

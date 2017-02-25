@@ -22,3 +22,5 @@ usage: rm [-f | -i] [-dPRrvW] file ...
        unlink file
 tar
 tar: Must specify one of -c, -r, -t, -u, -x
+pwd
+/Users/ithihasareddynirmala

@@ -749,3 +749,8 @@ traceroute to google.com (216.58.194.78), 64 hops max, 52 byte packets
  9  209.85.242.183 (209.85.242.183)  30.238 ms  48.819 ms
     209.85.242.181 (209.85.242.181)  27.767 ms
 10  dfw25s13-in-f78.1e100.net (216.58.194.78)  31.329 ms  24.523 ms  22.273 ms
+
+telnet 192.168.0.10
+Trying 192.168.0.10...
+telnet: connect to address 192.168.0.10: Operation timed out
+telnet: Unable to connect to remote host

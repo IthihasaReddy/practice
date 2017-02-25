@@ -17,3 +17,6 @@ usage: mv [-f | -i | -n] [-v] source target
        mv [-f | -i | -n] [-v] source ... directory
 touch
 usage: touch [-A [-][[hh]mm]SS] [-acfhm] [-r file] [-t [[CC]YY]MMDDhhmm[.SS]] file ...
+rm
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file

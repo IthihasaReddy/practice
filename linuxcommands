@@ -24,3 +24,6 @@ tar
 tar: Must specify one of -c, -r, -t, -u, -x
 pwd
 /Users/ithihasareddynirmala
+chmod
+usage:	chmod [-fhv] [-R [-H | -L | -P]] [-a | +a | =a  [i][# [ n]]] mode|entry file ...
+	chmod [-fhv] [-R [-H | -L | -P]] [-E | -C | -N | -i | -I] file ...

@@ -255,3 +255,9 @@ both forward and backward navigation through the file.
 
 more (command) In computing, more is a command to view (but not modify) the contents of a text file one screen at a time. 
 It is available on Unix and Unix-like systems, DOS, OS/2, and Microsoft Windows.
+
+uname 
+Darwin
+uname -a
+Darwin Ithihasas-MacBook-Pro.local 16.4.0 Darwin Kernel Version 16.4.0: Thu Dec 22 22:53:21 PST 2016; 
+root:xnu-3789.41.3~3/RELEASE_X86_64 x86_64

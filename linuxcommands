@@ -27,3 +27,10 @@ pwd
 chmod
 usage:	chmod [-fhv] [-R [-H | -L | -P]] [-a | +a | =a  [i][# [ n]]] mode|entry file ...
 	chmod [-fhv] [-R [-H | -L | -P]] [-E | -C | -N | -i | -I] file ...
+cat cat.txt
+
+cat's general syntax is
+
+cat [options] [filenames] [-] [filenames]
+
+The square brackets indicate that the enclosed items are optional.

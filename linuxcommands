@@ -231,3 +231,27 @@ Ithihasas-MacBook-Pro:~ ithihasareddynirmala$ less --help
   ESC-^F <c1> <c2>  *  Find close bracket <c2>.
   ESC-^B <c1> <c2>  *  Find open bracket <c1> 
 HELP -- Press RETURN for more, or q when done
+
+less cat.txt (opens file in the complete window and exits when we enter q)
+cat's general syntax is
+
+cat [options] [filenames] [-] [filenames]
+
+The square brackets indicate that the enclosed items are optional.
+
+cat.txt (END)
+
+more cat.txt (opens file below the command as in cat command)
+
+cat's general syntax is
+
+cat [options] [filenames] [-] [filenames]
+
+The square brackets indicate that the enclosed items are optional.
+
+less (Unix) less is a terminal pager program on Unix, Windows, and Unix-like systems used to view (but not change) 
+the contents of a text file one screen at a time. It is similar to more, but has the extended capability of allowing 
+both forward and backward navigation through the file.
+
+more (command) In computing, more is a command to view (but not modify) the contents of a text file one screen at a time. 
+It is available on Unix and Unix-like systems, DOS, OS/2, and Microsoft Windows.

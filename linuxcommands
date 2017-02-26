@@ -1579,3 +1579,11 @@ du (only a part of o/p as its very large)
 1368	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/141/0/.cp
 1368	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/141/0
 1368	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/141
+
+df
+Filesystem    512-blocks      Used Available Capacity iused      ifree %iused  Mounted on
+/dev/disk1     487653376 303258312 183883064    63%  882520 4294084759    0%   /
+devfs                367       367         0   100%     635          0  100%   /dev
+map -hosts             0         0         0   100%       0          0  100%   /net
+map auto_home          0         0         0   100%       0          0  100%   /home
+/dev/disk2         80000      5624     74376     8%     168 4294967111    0%   /Volumes/InstallMe

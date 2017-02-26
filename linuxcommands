@@ -1545,3 +1545,37 @@ PID   COMMAND      %CPU TIME     #TH   #WQ  #PORT MEM    PURG   CMPRS  PGRP PPID
 1108  cdpd         0.0  00:00.04 2     1    38    656K   0B     580K   1108 1    sleeping  0[4]           0.00000 0.00000    501  5040     184     152       52        1546      289       681       46
 1104  com.apple.sb 0.0  00:00.57 3     1    80    5480K  0B     3336K  1104 1    sleeping  0[6]           0.00000 0.00000    501  12580    243     751       2018      39650     4209      13343     66
 1102  EscrowSecuri 0.0  00:00.05 2     1    54    900K   0B     732K   1102 1    sleeping  0[0]           0.00000 0.00000    501  6856     179     206       85        6147      518       801       11
+
+
+du (only a part of o/p as its very large)
+296	./.bash_sessions
+8	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/.metadata/.plugins/org.eclipse.oomph.setup.ui
+8	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/.metadata/.plugins
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/.metadata
+8	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/.settings
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.core.runtime/.manager
+704	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.core.runtime
+0	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.equinox.app/.manager
+0	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.equinox.app
+800	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.equinox.launcher/org.eclipse.oomph.setup.installer_1.6.0.v20161114-1007
+800	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.equinox.launcher
+8	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.oomph.setup
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/.manager
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/107/0/.cp/icons/full
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/107/0/.cp/icons
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/107/0/.cp
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/107/0
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/107
+432	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/128/0/.cp/fonts
+264	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/128/0/.cp/icons/simple
+376	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/128/0/.cp/icons
+808	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/128/0/.cp
+808	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/128/0
+808	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/128
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/132/0/.cp/icons
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/132/0/.cp
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/132/0
+16	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/132
+1368	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/141/0/.cp
+1368	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/141/0
+1368	./.eclipse/1018673659_macosx_cocoa_x86_64/configuration/org.eclipse.osgi/141
